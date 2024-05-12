@@ -63,7 +63,11 @@ def parse_session(fields)
   }
 end
 
-def work
+def work(filename = '', disable_gc: false)
+  puts 'Start work'
+  GC.disable if disable_gc
+  filename = (filename == '') ? 'data.txt' : filename
+
   file = File.open('result.json', 'w')
   total_users = 0
   total_sessions = 0
@@ -74,7 +78,7 @@ def work
 
   write_start_stats(file)
 
-  File.foreach('data_large.txt') do |line|
+  File.foreach(ENV['DATA_FILE'] || filename) do |line|
     line_type, *fields = line.chomp.split(',')
 
     case line_type
@@ -137,4 +141,3 @@ def write_end_stats(file, user, report)
   file.puts('}')
 end
 
-work
