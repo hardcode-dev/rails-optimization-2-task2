@@ -1,0 +1,7 @@
+data*
+!data.txt
+result.json
+.*/
+stackprof_reports/
+ruby_prof_reports/
+docker-valgrind/
