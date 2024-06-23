@@ -1,0 +1,24 @@
+source 'https://rubygems.org'
+
+# ruby-prof
+gem 'ruby-prof'
+# stackprof
+gem 'stackprof'
+# memory-profiler
+gem 'memory-profiler'
+# json
+gem 'json'
+# pry
+gem 'pry'
+# date
+gem 'date'
+# minitest
+gem 'minitest'
+# rspec
+gem 'rspec'
+# benchmark
+gem 'benchmark'
+# memory_profiler
+gem 'memory_profiler'
+# rspec-benchmark
+gem 'rspec-benchmark'
