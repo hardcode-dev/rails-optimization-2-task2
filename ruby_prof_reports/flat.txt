@@ -1,0 +1,84 @@
+Measure Mode: allocations
+Thread ID: 260
+Fiber ID: 240
+Total: 0.000000
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name                           location
+   NaN      0.000     0.000     0.000     0.000        1   String#%                       
+   NaN      0.000     0.000     0.000     0.000        1   Integer#/                      
+   NaN      0.000     0.000     0.000     0.000        1   Kernel#`                       
+   NaN      0.000     0.000     0.000     0.000        1   <Module::Process>#pid          
+   NaN      0.000     0.000     0.000     0.000        3   Integer#inspect                
+   NaN      0.000     0.000     0.000     0.000        5   String#inspect                 
+   NaN      0.000     0.000     0.000     0.000        1   Hash#to_s                      
+   NaN      0.000     0.000     0.000     0.000        3   IO#puts                        
+   NaN      0.000     0.000     0.000     0.000        3   Kernel#puts                    
+   NaN      0.000     0.000     0.000     0.000        1   IO#close                       
+   NaN      0.000     0.000     0.000     0.000        1   String#to_s                    
+   NaN      0.000     0.000     0.000     0.000        1   String#slice                   
+   NaN      0.000     0.000     0.000     0.000        1   Array#size                     
+   NaN      0.000     0.000     0.000     0.000   500000   User#sessions=                 
+   NaN      0.000     0.000     0.000     0.000   500000   Integer#-                      
+   NaN      0.000     0.000     0.000     0.000   500000   String#length                  
+   NaN      0.000     0.000     0.000     0.000  1000000   String#==                      
+   NaN      0.000     0.000     0.000     0.000  1500000   String#[]                      
+   NaN      0.000     0.000     0.000     0.000   500001   JSON::Ext::Generator::State#initialize 
+   NaN      0.000     0.000     0.000     0.000   500001   JSON::Ext::Generator::GeneratorMethods::Hash#to_json 
+   NaN      0.000     0.000     0.000     0.000   500000   Integer#>                      
+   NaN      0.000     0.000     0.000     0.000   500000   Object#save_user               /mnt/c/Users/Home/study/mytask-2/task-2.rb:74
+   NaN      0.000     0.000     0.000     0.000   500000   Array#reverse!                 
+   NaN      0.000     0.000     0.000     0.000   500001   Array#sort!                    
+   NaN      0.000     0.000     0.000     0.000   500001   Array#join                     
+   NaN      0.000     0.000     0.000     0.000   500000   Array#sort                     
+   NaN      0.000     0.000     0.000     0.000   500000   Array#all?                     
+   NaN      0.000     0.000     0.000     0.000  2075737   String#=~                      
+   NaN      0.000     0.000     0.000     0.000   500000   Array#any?                     
+   NaN      0.000     0.000     0.000     0.000  2750940   BasicObject#!                  
+   NaN      0.000     0.000     0.000     0.000  2750940   Array#include?                 
+   NaN      0.000     0.000     0.000     0.000  2750940   String#upcase!                 
+   NaN      0.000     0.000     0.000     0.000  2750940   Integer#<                      
+   NaN      0.000     0.000     0.000     0.000  2750941   String#to_i                    
+   NaN      0.000     0.000     0.000     0.000   500000   Array#each                     
+   NaN      0.000     0.000     0.000     0.000   500000   Enumerable#inject              
+   NaN      0.000     0.000     0.000     0.000  8253020   Array#<<                       
+   NaN      0.000     0.000     0.000     0.000  2750940   Object#parse_session           /mnt/c/Users/Home/study/mytask-2/task-2.rb:25
+   NaN      0.000     0.000     0.000     0.000  3250940   User#sessions                  
+   NaN      0.000     0.000     0.000     0.000  8752820   Hash#[]=                       
+   NaN      0.000     0.000     0.000     0.000  8752820   Integer#+                      
+   NaN      0.000     0.000     0.000     0.000  8752820   Hash#[]                        
+   NaN      0.000     0.000     0.000     0.000  1000000   User#attributes=               
+   NaN      0.000     0.000     0.000     0.000  1000000   String#<<                      
+   NaN      0.000     0.000     0.000     0.000   500000   Object#parse_user              /mnt/c/Users/Home/study/mytask-2/task-2.rb:17
+   NaN      0.000     0.000     0.000     0.000  1000001   User#attributes                
+   NaN      0.000     0.000     0.000     0.000   500001   Object#collect_stats_from_users /mnt/c/Users/Home/study/mytask-2/task-2.rb:35
+   NaN      0.000     0.000     0.000     0.000  3250940   String#split                   
+   NaN      0.000     0.000     0.000     0.000  3250940   String#chop                    
+   NaN      0.000     0.000     0.000     0.000        1   <Class::IO>#foreach            
+   NaN      0.000     0.000     0.000     0.000        1   User#initialize                /mnt/c/Users/Home/study/mytask-2/task-2.rb:11
+   NaN      0.000     0.000     0.000     0.000        1   Class#new                      
+   NaN      0.000     0.000     0.000     0.000  1000005   IO#write                       
+   NaN      0.000     0.000     0.000     0.000        1   File#initialize                
+   NaN      0.000     0.000     0.000     0.000        1   <Class::IO>#open               
+   NaN      0.000     0.000     0.000     0.000        1   Object#work                    /mnt/c/Users/Home/study/mytask-2/task-2.rb:85
+   NaN      0.000     0.000     0.000     0.000 19005641   Array#[]                       
+   NaN      0.000     0.000     0.000     0.000        1   [global]#                      profiler1.rb:9
+
+* recursively called methods
+
+Columns are:
+
+  %self     - The percentage of time spent in this method, derived from self_time/total_time.
+  total     - The time spent in this method and its children.
+  self      - The time spent in this method.
+  wait      - The amount of time this method waited for other threads.
+  child     - The time spent in this method's children.
+  calls     - The number of times this method was called.
+  name      - The name of the method.
+  location  - The location of the method.
+
+The interpretation of method names is:
+
+  * MyObject#test - An instance method "test" of the class "MyObject"
+  * <Object:MyObject>#test - The <> characters indicate a method on a singleton class.
+
